@@ -40,7 +40,7 @@ cd Dental-Advance
 ### Adding a New Client:
 
 1. Take a photo of the client.
-2. Save the photo in the `Images` folder with the format `FirstName_LastName.jpg`.
+2. Save the photo in the `Images` folder with the format `FirstName LastName.jpg`.
 3. The system will now recognize this client in subsequent visits.
 
 ### Updating Client Information:
