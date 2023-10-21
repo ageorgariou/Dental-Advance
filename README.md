@@ -12,10 +12,7 @@ Dental-Advance is a robust client face recognition system tailored for dental pr
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites:
-
 - Python 3.x
-- OpenCV
-- Other dependencies listed in `requirements.txt`
 
 ### Installation:
 
@@ -27,10 +24,16 @@ git clone https://github.com/ageorgariou/Dental-Advance.git
 ```bash
 cd Dental-Advance
 ```
-3. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. Run the script to install the required dependencies:
+    - On Windows:
+    ```bash
+    install_dependencies.bat
+    ```
+
+### Email Configuration:
+
+1. Update the `EMAIL_PASSWORD`, `email_sender`, and `email_recipient` variables in your script.
+2. To generate an app-specific password for `EMAIL_PASSWORD`, follow this [tutorial](https://www.youtube.com/watch?v=hXiPshHn9Pw).
 
 ## Usage:
 
@@ -64,6 +67,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
----
-
-Feel free to customize the README to match the exact functionality and style of your project. This structured format ensures that users have a clear understanding of how to install and use your software, and what to expect from it.
+The updated README now includes a section on email configuration, guiding users on updating necessary email-related variables and generating an app-specific password with the help of a provided tutorial link.
