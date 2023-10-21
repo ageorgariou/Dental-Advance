@@ -3,7 +3,7 @@ from email.message import EmailMessage
 import ssl
 import sqlite3
 
-EMAIL_PASSWORD = 'feidzxooysqlhbkh'
+EMAIL_PASSWORD = 'The App Password To Your Email'
 
 def get_client_info(name):
     conn = sqlite3.connect('clients.db')
@@ -29,8 +29,8 @@ def send1_email(client_name):
         return
 
     # Construct email details using client_info
-    email_sender = 'jrcshortclips@gmail.com'
-    email_recipient = 'jrcshortclips@gmail.com'  # Change this to the recipient's email address
+    email_sender = 'theemailitsendsfrom@gmail.com'
+    email_recipient = 'example123@gmail.com'  # Change this to the recipient's email address
     subject = f"Alert: {client_info['name']} detected"
     body = f"""{client_info['name']} detected!
     Owe Amount: ${client_info['owe_amount']}.
@@ -58,6 +58,3 @@ def send1_email(client_name):
     except Exception as e:
         print(f"Email sending failed with error: {e}")
 
-# Example usage:
-# client_name = "Alexandros Georgariou"
-# send1_email(client_name)
