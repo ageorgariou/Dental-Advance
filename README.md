@@ -37,11 +37,10 @@ cd Dental-Advance
 
 ## Usage:
 
-### Adding a New Client:
+### Setting Up Client Images:
 
-1. Take a photo of the client.
-2. Save the photo in the `Images` folder with the format `FirstName LastName.jpg`.
-3. The system will now recognize this client in subsequent visits.
+1. Create a folder named `Images` in the project directory.
+2. Add client photos to the `Images` folder, naming each photo with the format `FirstName LastName.jpg`.
 
 ### Updating Client Information:
 
@@ -66,5 +65,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License:
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-The updated README now includes a section on email configuration, guiding users on updating necessary email-related variables and generating an app-specific password with the help of a provided tutorial link.
